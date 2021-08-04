@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hero"
+        android:adjustViewBounds="true"
+        />
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/editNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nama"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/editPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:inputType="numberDecimal"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal">
+        <Button
+            android:layout_marginRight="10dp"
+            android:id="@+id/submit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/submit"
+            />
+        <Button
+            android:layout_marginLeft="10dp"
+            android:id="@+id/submit2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/submit2"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/submit3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/submit3"
+            />
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/submit4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/submit4"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textHasil"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hasil"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        />
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Kalkuator 1 beta</string>
+    <string name="submit">*</string>
+    <string name="password">Masukkan Panjang</string>
+    <string name="nama">Masukkan Lebar</string>
+    <string name="hasil">Hasil</string>
+    <string name="submit2">/</string>
+    <string name="submit3">-</string>
+    <string name="submit4">+</string>
+</resources>
